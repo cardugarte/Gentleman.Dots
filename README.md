@@ -20,6 +20,22 @@ This repository contains customized configurations for a complete development en
 
 You can choose between automatic and manual installation methods depending on your preference and operating system.
 
+## Claude Code Integration
+
+This configuration includes **Claude Code** integrated directly into Neovim! Claude Code is Anthropic's official CLI tool that brings AI-powered coding assistance to your terminal.
+
+📚 **[Read the Complete Claude Code Guide](CLAUDE_CODE_GUIDE.md)** for:
+- All keyboard shortcuts and commands
+- How to use Claude Code in the terminal
+- Custom slash commands and workflows
+- Integration with Neovim
+- Tips and best practices
+
+**Quick Start in Neovim:**
+- `<leader>ac` - Toggle Claude Code panel
+- `<leader>as` - Send selected code to Claude
+- `<leader>aa` - Accept suggested changes
+
 **Want the bleeding edge?** If you want access to the latest experimental features that I use in my daily workflow (macOS only), check out the `nix-migration` branch: https://github.com/Gentleman-Programming/Gentleman.Dots/tree/nix-migration
 
 This branch contains cutting-edge configurations that eventually make their way to `main` once they're stable and tested. If you can't wait for the stable release and want the absolute latest features, this branch is incredible - just keep in mind it's macOS-focused and may have occasional instabilities.
